@@ -35,11 +35,11 @@ async def ping_Espro(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
-                    InlineKeyboardButton(
-                        "✨ sᴏᴜʀᴄᴇ ✨",
-                        user_id=config.OWNER_ID",
-                    ),
+                   InlineKeyboardButton(text="🍁Uᴘᴅᴀᴛᴇ🥀", url=config.SUPPORT_CHANNEL),
+                   InlineKeyboardButton(text="🍁Sᴜᴩᴩᴏʀᴛ🥀", url=config.SUPPORT_CHAT),
+                ],
+                [
+                   InlineKeyboardButton(text="❄️Oᴡɴᴇʀ❄️", user_id=config.OWNER_ID),
                 ],
             ]
         ),
